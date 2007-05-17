@@ -1,0 +1,25 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>GooZee</os:ShortName>
+<os:Description>Search eZ echosystem (via GooZee)</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/gif,GIF89a%10%00%10%00%91%00%00%00%00%00%FF%FF%FF%F0%8C%00%FF%FF%FF!%F9%04%01%07%00%03%00%2C%00%00%00%00%10%00%10%00%00%024%9C%8Fi%C0%ED%7D%40%98%B4%06%10%AD%C6K%5B%3EH%1E%05%8A%D3%F3%84%15%20%B4n%8B%99%D7%FB%C6%2B%ED%DA%24%0E%AB%3B%AF%3B%F1%04%B1%C7%10%149*P%8E%02%00%3B</os:Image>
+<os:Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;client=firefox&amp;qu={searchTerms}">
+</os:Url><os:Url type="text/html" method="GET" template="http://www.google.com/custom">
+  <os:Param name="q" value="{searchTerms}"/>
+  <os:Param name="ie" value="utf-8"/>
+  <os:Param name="oe" value="utf-8"/>
+  <os:Param name="sourceid" value="mozilla-search"/>
+  <os:Param name="num" value="50"/>
+  <os:Param name="cof" value="LH%3A34%3BCX%3AGooZee%3BFORID%3A0%3BS%3Ahttp%3A%2F%2Fgoozee%2Ebenn%2Eorg%2F%3BL%3Ahttp%3A%2F%2Fgoozee%2Ebenn%2Eorg%2Fimages%2Fgoozee%2Epng%3BLP%3A1"/>
+  <os:Param name="cx" value="016925729212334848828:gr8yusdgz9g"/>
+  <os:Param name="hl" value="en"/>
+  <os:Param name="sa" value="GooZee+Search"/>
+  <os:Param name="client" value="google-coop-np"/>
+  <os:Param name="as_qd" value="all"/>
+  <os:Param name="as_ft" value="i"/>
+  <os:Param name="as_qdr" value="all"/>
+  <os:Param name="as_occt" value="any"/>
+  <os:Param name="as_dt" value="i"/>
+  <os:Param name="rls" value="{moz:distributionID}:{moz:locale}:{moz:official}"/>
+</os:Url>
+</SearchPlugin>
