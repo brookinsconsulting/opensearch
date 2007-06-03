@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-    <ShortName>eZprojects</ShortName>
-    <Description>Search on eZprojects.ez.no</Description>
-    <Tags>eZ publish eZprojects</Tags>
+    <ShortName>projects.ez.no</ShortName>
+    <Description>Search on projects.ez.no</Description>
+    <Tags>eZ publish projects</Tags>
     <Image width="16" height="16">data:image/gif,GIF89a%10%00%10%00%91%00%00%00%00%00%FF%FF%FF%F0%8C%00%FF%FF%FF!%F9%04%01%07%00%03%00%2C%00%00%00%00%10%00%10%00%00%024%9C%8Fi%C0%ED%7D%40%98%B4%06%10%AD%C6K%5B%3EH%1E%05%8A%D3%F3%84%15%20%B4n%8B%99%D7%FB%C6%2B%ED%DA%24%0E%AB%3B%AF%3B%F1%04%B1%C7%10%149*P%8E%02%00%3B</Image>
     <Contact>kristof@ezpedia.org</Contact>
     <InputEncoding>UTF-8</InputEncoding>
-    <Url type="text/html" template="http://ezprojects.ez.no/content/search?SearchText={searchTerms}" />
-    <LongName>eZprojects.ez.no search</LongName>
+    <Url type="text/html" template="http://projects.ez.no/content/search?SearchText={searchTerms}" />
+    <LongName>projects.ez.no search</LongName>
     <Developer>eZpedia board</Developer>
     <Attribution>
      Copyright 2006, eZpedia contributors, all content available under the GNU GPL
