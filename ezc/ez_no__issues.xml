@@ -7,9 +7,13 @@
     <Image width="16" height="16">data:image/gif,GIF89a%10%00%10%00%91%00%00%00%00%00%FF%FF%FF%F0%8C%00%FF%FF%FF!%F9%04%01%07%00%03%00%2C%00%00%00%00%10%00%10%00%00%024%9C%8Fi%C0%ED%7D%40%98%B4%06%10%AD%C6K%5B%3EH%1E%05%8A%D3%F3%84%15%20%B4n%8B%99%D7%FB%C6%2B%ED%DA%24%0E%AB%3B%AF%3B%F1%04%B1%C7%10%149*P%8E%02%00%3B</Image>
     <Contact>graham@ezpedia.org</Contact>
     <InputEncoding>UTF-8</InputEncoding>
-    <Url type="text/html" template="http://issues.ez.no/IssueList.php?SearchOk=Ok">
+    <Url type="text/html" template="http://issues.ez.no/IssueList.php">
       <Param name="Search" value="{searchTerms}"/>
-      <Param name="ProjectId" value="3"/>
+      <Param name="SearchInAttachments" value="1"/>
+      <Param name="SearchInComments" value="1"/>
+      <Param name="SearchIn" value="3"/>
+      <Param name="SearchOk" value="Search"/>
+      <Param name="clearSelection" value="1"/>
       <Param name="sourceid" value="Mozilla-search"/>
     </Url>
     <LongName>issues.ez.no - Search all eZ Publish issues</LongName>
