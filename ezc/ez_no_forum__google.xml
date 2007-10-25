@@ -20,7 +20,7 @@
       <Param name="as_qdr" value="all"/>
       <Param name="as_occt" value="any"/>
       <Param name="as_dt" value="i"/>
-      <Param name="as_sitesearch" value="ez.no/community/forum"/>
+      <Param name="as_sitesearch" value="ez.no/developer/forum"/>
       <Param name="rls" value="{moz:distributionID}:{moz:locale}:{moz:official}"/>
     </Url>
     <LongName>eZ.no Forum Search (via Google)</LongName>
