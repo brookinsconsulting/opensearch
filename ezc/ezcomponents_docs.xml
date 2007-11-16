@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>eZ Components Docs (via Google)</ShortName>
+    <Description>Search eZ Components (via Google)</Description>
+    <Tags>eZ components eZ Components Docs</Tags>
+    <Image width="16" height="16">data:image/gif,GIF89a%10%00%10%00%84%1F%00%3D%3BX%40%3E%5CA%3E%5DA%3F%5EB%40_CAaDBbEBbFCdGEfHFhIGiJGiJGjKHkKHlLImMJnMJoNKpNLqOLqOLrOMrPMrPMsPNsQNtROuROvSPw%FF%FF%FF!%F9%04%01%0A%00%1F%00%2C%00%00%00%00%10%00%10%00%00%05X%E0'%8E%A3%C7%9D%0C%A9~%1EY%ADd%A1%3E%F0%B7%ADW)A%90%A4%C0%B2%0F%84dYqD-%95C%15%FC%A92%84Qf%84Xm%06%80%40%602%D2%AC%22%A4C%60%B4%20%25IS%11%A6%11%99T%1A0%03%8C%AB%BA%C1%12%02%95%A4f%23u%F8%22%17%14%15%15r%1F!%00%3B</Image>
+    <Contact>graham@ezpedia.org</Contact>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Url type="text/html" template="" />
+    <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;client=firefox&amp;qu={searchTerms}"/>
+    <Url type="text/html" method="GET" template="http://www.google.com/search">
+      <Param name="q" value="{searchTerms}"/>
+      <Param name="ie" value="utf-8"/>
+      <Param name="oe" value="utf-8"/>
+      <Param name="sourceid" value="mozilla-search"/>
+      <Param name="num" value="50"/>
+      <Param name="as_qd" value="all"/>
+      <Param name="as_ft" value="i"/>
+      <Param name="as_qdr" value="all"/>
+      <Param name="as_occt" value="any"/>
+      <Param name="as_dt" value="i"/>
+      <Param name="as_sitesearch" value="ezcomponents.org/docs"/>
+    </Url>
+    <LongName>eZ Components Docs Search (via Google)</LongName>
+    <Developer>eZpedia board</Developer>
+    <Attribution>
+     Copyright 2006, eZpedia contributors, all content available under the GNU GPL
+    </Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <AdultContent>false</AdultContent>
+    <Language>en-GB</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
