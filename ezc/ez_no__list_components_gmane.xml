@@ -11,7 +11,7 @@
     <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;client=firefox&amp;qu={searchTerms}"/>
     <Url type="text/html" method="GET" template="http://search.gmane.org/">
       <Param name="query" value="{searchTerms}"/>
-      <Param name="author" value="{searchTerms}"/>
+      <Param name="author" value=""/>
       <Param name="group" value="gmane.comp.web.ezcomponents.devel"/>
       <Param name="DEFAULTOP" value="and"/>
       <Param name="sort" value="relevence"/>
