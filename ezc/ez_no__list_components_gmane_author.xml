@@ -13,8 +13,8 @@
       <Param name="query" value="{searchTerms}"/>
       <Param name="author" value="{searchTerms}"/>
       <Param name="group" value="gmane.comp.web.ezcomponents.devel"/>
-      <Param name="DEFAULTOP" value="and"/>
-      <Param name="sort" value="relevence"/>
+      <Param name="DEFAULTOP" value="or"/>
+      <Param name="sort" value="revdate"/>
       <Param name="sourceid" value="mozilla-search"/>
     </Url>
     <LongName>Search: eZ Components List Authors (via Gmane)</LongName>
