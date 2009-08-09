@@ -11,7 +11,7 @@
       <Param name="SearchText" value="{searchTerms}"/>
       <Param name="SubTreeArray[]" value="documentation"/>
       <Param name="SearchPageLimit" value="5"/>
-      <Param name="SearchSectionID" value="18"/>
+      <Param name="SearchSectionID" value="22"/>
       <Param name="sourceid" value="Mozilla-search"/>
     </Url>
     <LongName>eZ.no - Search eZ stable documentation</LongName>
