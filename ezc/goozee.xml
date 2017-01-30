@@ -10,7 +10,7 @@
   <os:Param name="oe" value="utf-8"/>
   <os:Param name="sourceid" value="mozilla-search"/>
   <os:Param name="num" value="50"/>
-  <os:Param name="cof" value="LH%3A34%3BCX%3AGooZee%3BFORID%3A0%3BS%3Ahttp%3A%2F%2Fgoozee%2Ebenn%2Eorg%2F%3BL%3Ahttp%3A%2F%2Fgoozee%2Ebenn%2Eorg%2Fimages%2Fgoozee%2Epng%3BLP%3A1"/>
+  <os:Param name="cof" value="LH%3A34%3BCX%3AGooZee%3BFORID%3A0%3BS%3Ahttp%3A%2F%2Fgoozee%2Eezecosystem%2Eorg%2F%3BL%3Ahttp%3A%2F%2Fgoozee%2Eezecosystem%2Eorg%2Fimages%2Fgoozee%2Epng%3BLP%3A1"/>
   <os:Param name="cx" value="016925729212334848828:gr8yusdgz9g"/>
   <os:Param name="hl" value="en"/>
   <os:Param name="sa" value="GooZee+Search"/>
